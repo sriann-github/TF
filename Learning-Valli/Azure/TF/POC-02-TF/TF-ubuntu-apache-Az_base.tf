@@ -19,10 +19,10 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "8261f2c3-2e94-4b21-afc2-d25818872747"
-  client_id       = "6f40dc68-6880-4130-ac53-72cc92c1939d"
-  client_secret   = "vSp8Q~TVvqCwLRvd0~y6YM_hlpBYjN0IbhRLoboI"
-  tenant_id       = "13a746b3-4230-49e3-9597-6d17aa6ce955"
+  subscription_id = ""
+  client_id       = ""
+  client_secret   = ""
+  tenant_id       = ""
 }
 
 resource "random_pet" "ssh_key_name" {
